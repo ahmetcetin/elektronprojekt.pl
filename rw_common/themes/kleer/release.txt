@@ -1,0 +1,86 @@
+Kleer r6.000
+
+Commit: 9e78717
+Date: 2012-03-08 15:08:30 -0500
+
+>>    Closed issue 5c9/217:om: Update cycle resource to use https.    <<
+
+ .../2175c1b8-9f00-4d9e-8e6b-fff82d4ae1ad/values    |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+Commit: da65046
+Date: 2012-03-08 15:06:17 -0500
+
+>>    Added app cast style release notes.    <<
+
+ Contents/release-history.txt |  693 ++++++++++++++++++++++++++++++++++++++++++
+ Contents/release.html        |   10 +
+ 2 files changed, 703 insertions(+), 0 deletions(-)
+
+Commit: b159846
+Date: 2012-03-08 14:13:39 -0500
+
+>>    Moved all common resources to seyDoggy CDN.    <<
+
+ Contents/css/jquery.prettyPhoto.css                |  173 -------------------
+ .../images/prettyPhoto/dark_rounded/btnNext.png    |  Bin 1411 -> 0 bytes
+ .../prettyPhoto/dark_rounded/btnPrevious.png       |  Bin 1442 -> 0 bytes
+ .../prettyPhoto/dark_rounded/contentPattern.png    |  Bin 130 -> 0 bytes
+ .../prettyPhoto/dark_rounded/default_thumbnail.gif |  Bin 227 -> 0 bytes
+ .../images/prettyPhoto/dark_rounded/loader.gif     |  Bin 2545 -> 0 bytes
+ .../images/prettyPhoto/dark_rounded/sprite.png     |  Bin 4076 -> 0 bytes
+ .../images/prettyPhoto/dark_square/btnNext.png     |  Bin 1411 -> 0 bytes
+ .../images/prettyPhoto/dark_square/btnPrevious.png |  Bin 1442 -> 0 bytes
+ .../prettyPhoto/dark_square/contentPattern.png     |  Bin 121 -> 0 bytes
+ .../prettyPhoto/dark_square/default_thumbnail.gif  |  Bin 227 -> 0 bytes
+ Contents/images/prettyPhoto/dark_square/loader.gif |  Bin 2545 -> 0 bytes
+ Contents/images/prettyPhoto/dark_square/sprite.png |  Bin 3507 -> 0 bytes
+ .../images/prettyPhoto/default/default_thumb.png   |  Bin 1537 -> 0 bytes
+ Contents/images/prettyPhoto/default/loader.gif     |  Bin 6331 -> 0 bytes
+ Contents/images/prettyPhoto/default/sprite.png     |  Bin 6682 -> 0 bytes
+ .../images/prettyPhoto/default/sprite_next.png     |  Bin 1358 -> 0 bytes
+ .../images/prettyPhoto/default/sprite_prev.png     |  Bin 1376 -> 0 bytes
+ Contents/images/prettyPhoto/default/sprite_x.png   |  Bin 1097 -> 0 bytes
+ Contents/images/prettyPhoto/default/sprite_y.png   |  Bin 1162 -> 0 bytes
+ Contents/images/prettyPhoto/facebook/btnNext.png   |  Bin 845 -> 0 bytes
+ .../images/prettyPhoto/facebook/btnPrevious.png    |  Bin 828 -> 0 bytes
+ .../prettyPhoto/facebook/contentPatternBottom.png  |  Bin 142 -> 0 bytes
+ .../prettyPhoto/facebook/contentPatternLeft.png    |  Bin 137 -> 0 bytes
+ .../prettyPhoto/facebook/contentPatternRight.png   |  Bin 136 -> 0 bytes
+ .../prettyPhoto/facebook/contentPatternTop.png     |  Bin 142 -> 0 bytes
+ .../prettyPhoto/facebook/default_thumbnail.gif     |  Bin 227 -> 0 bytes
+ Contents/images/prettyPhoto/facebook/loader.gif    |  Bin 2545 -> 0 bytes
+ Contents/images/prettyPhoto/facebook/sprite.png    |  Bin 4227 -> 0 bytes
+ .../images/prettyPhoto/light_rounded/btnNext.png   |  Bin 1411 -> 0 bytes
+ .../prettyPhoto/light_rounded/btnPrevious.png      |  Bin 1442 -> 0 bytes
+ .../light_rounded/default_thumbnail.gif            |  Bin 227 -> 0 bytes
+ .../images/prettyPhoto/light_rounded/loader.gif    |  Bin 2545 -> 0 bytes
+ .../images/prettyPhoto/light_rounded/sprite.png    |  Bin 4099 -> 0 bytes
+ .../images/prettyPhoto/light_square/btnNext.png    |  Bin 1411 -> 0 bytes
+ .../prettyPhoto/light_square/btnPrevious.png       |  Bin 1442 -> 0 bytes
+ .../prettyPhoto/light_square/default_thumbnail.gif |  Bin 227 -> 0 bytes
+ .../images/prettyPhoto/light_square/loader.gif     |  Bin 2545 -> 0 bytes
+ .../images/prettyPhoto/light_square/sprite.png     |  Bin 3507 -> 0 bytes
+ Contents/index.html                                |   35 ++--
+ Contents/scripts/jquery.prettyPhoto.js             |   81 ---------
+ Contents/scripts/seydoggy.js                       |  174 --------------------
+ Contents/scripts/slideshow/seydoggy.slideshow.js   |  165 -------------------
+ 43 files changed, 19 insertions(+), 609 deletions(-)
+
+Commit: 516648a
+Date: 2012-03-08 14:00:16 -0500
+
+>>    Updated versioning to r6.    <<
+
+ Contents/Info.plist  |    6 +++---
+ Contents/Theme.plist |    2 +-
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+Commit: eee04a7
+Date: 2011-12-19 09:20:44 -0500
+
+>>    Created bug with ID 5c9/217: Update cycle resource to use https.    <<
+
+ .../2175c1b8-9f00-4d9e-8e6b-fff82d4ae1ad/values    |   17 +
+ Contents/release.txt                               |  693 --------------------
+ 2 files changed, 17 insertions(+), 693 deletions(-)

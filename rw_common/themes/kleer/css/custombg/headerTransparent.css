@@ -1,0 +1,5 @@
+/* @option Custom header background */
+.pageHeader{background:transparent ! important;}
+.headerContainer .radiusAll{border-radius:0;}
+.headerContainer .contentShadow{box-shadow:none;}
+.headerContainer .preContent{padding:1em 0;}

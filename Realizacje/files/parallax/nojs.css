@@ -1,0 +1,18 @@
+.parallax-slide{
+	position: relative;
+}
+.parallax-slide h2,
+.parallax-slide p,
+.parallax-slide .parallax-link,
+.parallax-slide .parallax-img{
+	position: absolute;
+	opacity: 1;
+	left: 10%;
+}
+.parallax-slide .parallax-img{
+	left: 60%;
+}
+.parallax-dots,
+.parallax-arrows{
+	display: none;
+}

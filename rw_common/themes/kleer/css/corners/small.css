@@ -1,0 +1,10 @@
+/* @option Corners */
+.radiusAll,.contentBox{border-radius:6px;}
+.radiusTop{border-radius:6px 6px 0 0;}
+.radiusTopLeft{border-radius:6px 0 0 0;}
+.radiusTopRight{border-radius:0 6px 0 0;}
+.radiusBottom{border-radius:0 0 6px 6px;}
+.radiusBottomLeft{border-radius:0 0 0 6px;}
+.radiusBottomRight{border-radius:0 0 6px 0;}
+.radiusLeft{border-radius:6px 0 0 6px;}
+.radiusRight{border-radius:0 6px 6px 0;}

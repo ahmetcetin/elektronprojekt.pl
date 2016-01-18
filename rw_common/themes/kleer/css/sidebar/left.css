@@ -1,0 +1,3 @@
+/* @option Sidebar position */
+.sidebarContent{float:left;}
+.mainContent{border-left: 1px solid;float:right;padding-left:2em;}
