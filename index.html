@@ -1,202 +1,385 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-	<!--
-		seyDoggy Kleer - see release notes (rw_common/themes/kleer/release.txt)
-	-->
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="(null)" content="(null)" />
-		<link rel="icon" href="http://www.elektronprojekt.pl/favicon.ico" type="image/x-icon" />
-		<link rel="shortcut icon" href="http://www.elektronprojekt.pl/favicon.ico" type="image/x-icon" />
-		
-	<title>Projekt Elektryczny - Elektron Projekt</title>
-	<!-- Theme Default Styles -->
-	<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/styles.css" />
-	<link rel="stylesheet" type="text/css" media="print" href="rw_common/themes/kleer/css/print.css" />
-	<!-- Theme Libraries -->
-	<script>sdNav = {};RwSet = {pathto: "rw_common/themes/kleer/javascript.js",baseurl: "http://www.elektronprojekt.pl/"};</script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="http://seydoggy.github.com/libs/themes/rw/common.min.js"></script>
-	<script src="http://seydoggy.github.com/libs/themes/rw/Kleer.min.js"></script>
-	<script src="rw_common/themes/kleer/javascript.js"></script>
-	<!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<!-- Theme Options -->
-	<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/corners/small.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/title/left.css" />
-		<script type="text/javascript" src="rw_common/themes/kleer/scripts/navigation/3tier.js"></script>
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/background/gradNone.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/width/1060.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/background/tileLinen.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/headerheight/headerHeightHidden.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/custombg/header16.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/sidebar/narrow.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/sidebar/right.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/typography/helvetica.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/typography/fontSizeMedium.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/typography/lineHeightMedium.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/background/ec2_tileNone.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/background/ec3_tileNone.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/background/copyright_tileNone.css" />
-		
-	<!-- Theme Color Options -->
-	<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/colourtag-page0.css" />
-	<!-- Plugin Resources -->
-			<link rel='stylesheet' type='text/css' media='all' href='rw_common/plugins/stacks/stacks.css' />
-		<!--[if lte IE 7]>
-			<link rel='stylesheet' type='text/css' media='all' href='rw_common/plugins/stacks/stacks_ie.css' />
-		<![endif]-->
-		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page0.css' />
-		<script type='text/javascript' charset='utf-8' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
-		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page0.js'></script>
+    <!--
+    seyDoggy Kleer - see release notes (rw_common/themes/kleer/release.txt)
+  -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="(null)" content="(null)" />
+    <link rel="icon" href="http://www.elektronprojekt.pl/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://www.elektronprojekt.pl/favicon.ico" type="image/x-icon" />
 
-	<!-- User Resources -->
-	
-	
-	<!-- User Styles -->
-	<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/custom.css" />
-	
+    <title>Projekt Elektryczny - Elektron Projekt</title>
+    <!-- Theme Default Styles -->
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/styles.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="rw_common/themes/kleer/css/print.css" />
+    <!-- Theme Libraries -->
+    <script>
+        sdNav = {};
+        RwSet = {
+            pathto: "rw_common/themes/kleer/javascript.js",
+            baseurl: "http://www.elektronprojekt.pl/"
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://seydoggy.github.com/libs/themes/rw/common.min.js"></script>
+    <script src="http://seydoggy.github.com/libs/themes/rw/Kleer.min.js"></script>
+    <script src="rw_common/themes/kleer/javascript.js"></script>
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!-- Theme Options -->
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/corners/small.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/title/left.css" />
+    <script type="text/javascript" src="rw_common/themes/kleer/scripts/navigation/3tier.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/background/gradNone.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/width/1060.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/background/tileLinen.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/headerheight/headerHeightHidden.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/custombg/header16.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/sidebar/narrow.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/sidebar/right.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/typography/helvetica.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/typography/fontSizeMedium.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/typography/lineHeightMedium.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/background/ec2_tileNone.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/background/ec3_tileNone.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/background/copyright_tileNone.css" />
+
+    <!-- Theme Color Options -->
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/colourtag-page0.css" />
+    <!-- Plugin Resources -->
+    <link rel='stylesheet' type='text/css' media='all' href='rw_common/plugins/stacks/stacks.css' />
+    <!--[if lte IE 7]>
+      <link rel='stylesheet' type='text/css' media='all' href='rw_common/plugins/stacks/stacks_ie.css' />
+    <![endif]-->
+    <link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page0.css' />
+    <script type='text/javascript' charset='utf-8' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+    <script type='text/javascript' charset='utf-8' src='files/stacks_page_page0.js'></script>
+
+    <!-- User Resources -->
+
+
+    <!-- User Styles -->
+    <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/kleer/css/custom.css" />
+
 </head>
-<body>
-	<div class="wrapperOuter wrapperHeader">
-		<div class="wrapperHeader_bg">
-			<div class="wrapperInner">
-				<header class="siteHeader">
-					<div class="titleBlock">
-						<a class="logo" href="http://www.elektronprojekt.pl/" title="Elektron Projekt"></a><!-- .logo -->
-						<hgroup class="title">
-							<h1 class="site_title">Elektron Projekt</h1>
-							<h2 class="site_slogan">Projektowanie Elektryczne, Nadzory Inwestorskie</h2>
-						</hgroup><!-- .title -->
-						<div class="clear"></div>
-					</div><!-- .titleBlock -->
-					<nav id="toolbar_horizontal"><ul class="toolbarList"><li class="currentListItem"><a class="current" href="index.html" rel="self" title="Strona Głowna">Strona Głowna</a></li><li class="normalListItem"><a class="normal" href="Projekty/index.html" rel="self" title="Projekty">Projekty</a></li><li class="normalListItem"><a class="normal" href="Realizacje/index.html" rel="self" title="Realizacje">Realizacje</a></li></ul></nav><!-- #toolbar_horizontal -->
-					<div class="clear"></div>
-					<div class="headerContainer">
-						<div id="extraContainer1" class="preContent">
-							<!--extra user content renders here-->
-						</div><!-- #extraContainer1 .preContent -->
-						<div class="seydoggySlideshow radiusAll contentShadow">
-							<div class="pageHeader radiusAll"></div><!-- .pageHeader -->
-						</div><!-- .seydoggySlideshow -->
-						<div class="clear"></div>
-					</div><!-- .headerContainer -->
-				</header><!-- .siteHeader -->
-				<nav id="toolbar_sub"></nav><!-- #toolbar_sub -->
-			</div><!-- .wrapperInner -->
-		</div><!-- .wrapperHeader_bg -->
-	</div><!-- .wrapperOuter -->
-	<div class="wrapperOuter wrapperContent">
-		<div class="wrapperInner">
-			<section class="mainContent">
-				
 
-<!-- Stacks v1 --><div id='stacks_out_0_page0' class='stacks_top'><div id='stacks_in_0_page0' class='stacks_in'><div id='stacks_out_12_page0' class='stacks_out'><div id='stacks_in_12_page0' class='stacks_in'>
-<div class="flex-container">
-    
-    <div class="flexslider">
-        <ul class="slides">
-            
-        	<li>
-                <div class='centered_image' ><img class='imageStyle' src='files/stacks_image_16.png' width='950' height='320' alt='Stacks Image 16' /></div>
-                <p class="flex-caption"></p>
-                Link
-        	</li><!-- slide -->
-        	
-        	
-        	<li>
-                <div class='centered_image' ><img class='imageStyle' src='files/stacks_image_17.png' width='950' height='320' alt='Stacks Image 17' /></div>
-                <p class="flex-caption"></p>
-                Link
-        	</li><!-- slide -->
-        	
-        	
-        	<li>
-                <div class='centered_image' ><img class='imageStyle' src='files/stacks_image_18.png' width='950' height='320' alt='Stacks Image 18' /></div>
-                <p class="flex-caption"></p>
-                Link
-        	</li><!-- slide -->
-        	
-        	
-        	<li>
-                <div class='centered_image' ><img class='imageStyle' src='files/stacks_image_23.png' width='950' height='320' alt='Stacks Image 23' /></div>
-                <p class="flex-caption"></p>
-                Link
-        	</li><!-- slide -->
-        	
-        	
-        </ul><!-- ul.slides -->
-    </div><!-- .flexslider -->
-</div><!-- .flex-container -->
-</div></div><div id='stacks_out_5_page0' class='stacks_out'><div id='stacks_in_5_page0' class='stacks_in'><br><br><h1><em>Jeśli szukasz profesjonalnej pracowni projektowania instalacji elektrycznych to już znalazłeś!</em></h1><br></div></div><div id='stacks_out_9_page0' class='stacks_out'><div id='stacks_in_9_page0' class='stacks_in'><div class='stacks_div stacks_left'>
-<div id='stacks_out_28_page0' class='stacks_out'><div id='stacks_in_28_page0' class='stacks_in'><div class='centered_image' ><img class='imageStyle' src='files/stacks_image_29.jpg' width='425' height='282' alt='Stacks Image 29' /></div></div></div>
-</div>
-<div class='stacks_div stacks_right'>
-<div id='stacks_out_30_page0' class='stacks_out'><div id='stacks_in_30_page0' class='stacks_in'><span id='stacks_in_31_page0'>Pracownia nasza wykonuje kompleksowo wszelkie projekty instalacji elektrycznych. Nasze opracowania charakteryzują się profesjonalizmem oraz  wysokim poziomem funkcjonalnym i estetycznym rozwiązań. Zadowolenie Klient&oacute;w z naszych rozwiązań projektowych sprawia nam niemałą satysfakcję. Wsp&oacute;łpracujemy z wieloma pracowniami architektonicznymi.
+<body>
+    <div class="wrapperOuter wrapperHeader">
+        <div class="wrapperHeader_bg">
+            <div class="wrapperInner">
+                <header class="siteHeader">
+                    <div class="titleBlock">
+                        <a class="logo" href="http://www.elektronprojekt.pl/" title="Elektron Projekt"></a>
+                        <!-- .logo -->
+                        <hgroup class="title">
+                            <h1 class="site_title">Elektron Projekt</h1>
+                            <h2 class="site_slogan">Projektowanie Elektryczne, Nadzory Inwestorskie</h2>
+                        </hgroup>
+                        <!-- .title -->
+                        <div class="clear"></div>
+                    </div>
+                    <!-- .titleBlock -->
+                    <nav id="toolbar_horizontal">
+                        <ul class="toolbarList">
+                            <li class="currentListItem"><a class="current" href="index.html" rel="self" title="Strona Głowna">Strona Głowna</a>
+                            </li>
+                            <li class="normalListItem"><a class="normal" href="Projekty/index.html" rel="self" title="Projekty">Projekty</a>
+                            </li>
+                            <li class="normalListItem"><a class="normal" href="Realizacje/index.html" rel="self" title="Realizacje">Realizacje</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- #toolbar_horizontal -->
+                    <div class="clear"></div>
+                    <div class="headerContainer">
+                        <div id="extraContainer1" class="preContent">
+                            <!--extra user content renders here-->
+                        </div>
+                        <!-- #extraContainer1 .preContent -->
+                        <div class="seydoggySlideshow radiusAll contentShadow">
+                            <div class="pageHeader radiusAll"></div>
+                            <!-- .pageHeader -->
+                        </div>
+                        <!-- .seydoggySlideshow -->
+                        <div class="clear"></div>
+                    </div>
+                    <!-- .headerContainer -->
+                </header>
+                <!-- .siteHeader -->
+                <nav id="toolbar_sub"></nav>
+                <!-- #toolbar_sub -->
+            </div>
+            <!-- .wrapperInner -->
+        </div>
+        <!-- .wrapperHeader_bg -->
+    </div>
+    <!-- .wrapperOuter -->
+    <div class="wrapperOuter wrapperContent">
+        <div class="wrapperInner">
+            <section class="mainContent">
+
+
+                <!-- Stacks v1 -->
+                <div id='stacks_out_0_page0' class='stacks_top'>
+                    <div id='stacks_in_0_page0' class='stacks_in'>
+                        <div id='stacks_out_12_page0' class='stacks_out'>
+                            <div id='stacks_in_12_page0' class='stacks_in'>
+                                <div class="flex-container">
+
+                                    <div class="flexslider">
+                                        <ul class="slides">
+
+                                            <li>
+                                                <div class='centered_image'><img class='imageStyle' src='files/stacks_image_16.png' width='950' height='320' alt='Stacks Image 16' />
+                                                </div>
+                                                <p class="flex-caption"></p>
+                                                Link
+                                            </li>
+                                            <!-- slide -->
+
+
+                                            <li>
+                                                <div class='centered_image'><img class='imageStyle' src='files/stacks_image_17.png' width='950' height='320' alt='Stacks Image 17' />
+                                                </div>
+                                                <p class="flex-caption"></p>
+                                                Link
+                                            </li>
+                                            <!-- slide -->
+
+
+                                            <li>
+                                                <div class='centered_image'><img class='imageStyle' src='files/stacks_image_18.png' width='950' height='320' alt='Stacks Image 18' />
+                                                </div>
+                                                <p class="flex-caption"></p>
+                                                Link
+                                            </li>
+                                            <!-- slide -->
+
+
+                                            <li>
+                                                <div class='centered_image'><img class='imageStyle' src='files/stacks_image_23.png' width='950' height='320' alt='Stacks Image 23' />
+                                                </div>
+                                                <p class="flex-caption"></p>
+                                                Link
+                                            </li>
+                                            <!-- slide -->
+
+
+                                        </ul>
+                                        <!-- ul.slides -->
+                                    </div>
+                                    <!-- .flexslider -->
+                                </div>
+                                <!-- .flex-container -->
+                            </div>
+                        </div>
+                        <div id='stacks_out_5_page0' class='stacks_out'>
+                            <div id='stacks_in_5_page0' class='stacks_in'>
+                                <br>
+                                <br>
+                                <h1><em>Jeśli szukasz profesjonalnej pracowni projektowania instalacji elektrycznych to już znalazłeś!</em></h1>
+                                <br>
+                            </div>
+                        </div>
+                        <div id='stacks_out_9_page0' class='stacks_out'>
+                            <div id='stacks_in_9_page0' class='stacks_in'>
+                                <div class='stacks_div stacks_left'>
+                                    <div id='stacks_out_28_page0' class='stacks_out'>
+                                        <div id='stacks_in_28_page0' class='stacks_in'>
+                                            <div class='centered_image'><img class='imageStyle' src='files/stacks_image_29.jpg' width='425' height='282' alt='Stacks Image 29' />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='stacks_div stacks_right'>
+                                    <div id='stacks_out_30_page0' class='stacks_out'>
+                                        <div id='stacks_in_30_page0' class='stacks_in'><span id='stacks_in_31_page0'>Pracownia nasza wykonuje kompleksowo wszelkie projekty instalacji elektrycznych. Nasze opracowania charakteryzują się profesjonalizmem oraz  wysokim poziomem funkcjonalnym i estetycznym rozwiązań. Zadowolenie Klient&oacute;w z naszych rozwiązań projektowych sprawia nam niemałą satysfakcję. Wsp&oacute;łpracujemy z wieloma pracowniami architektonicznymi.
 Zlecone nam prace wykonujemy:
-	
+  
 <ul>
-	<li>tylko profesjonalnie</li>
-	<li>tylko terminowo</li>
-	<li>tylko za rozsądną cenę</li>
-</ul></H4></span></div></div>
-</div></div></div><div id='stacks_out_25_page0' class='stacks_out'><div id='stacks_in_25_page0' class='stacks_in'><div class='stacks_div stacks_left'>
-<div id='stacks_out_32_page0' class='stacks_out'><div id='stacks_in_32_page0' class='stacks_in'><span id='stacks_in_33_page0'>Pełnimy nadzory autorskie nad realizacją zaprojektowanych przez nas obiekt&oacute;w i instalacji.
+  <li>tylko profesjonalnie</li>
+  <li>tylko terminowo</li>
+  <li>tylko za rozsądną cenę</li>
+</ul></H4></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id='stacks_out_25_page0' class='stacks_out'>
+                            <div id='stacks_in_25_page0' class='stacks_in'>
+                                <div class='stacks_div stacks_left'>
+                                    <div id='stacks_out_32_page0' class='stacks_out'>
+                                        <div id='stacks_in_32_page0' class='stacks_in'><span id='stacks_in_33_page0'>Pełnimy nadzory autorskie nad realizacją zaprojektowanych przez nas obiekt&oacute;w i instalacji.
 Sprawujemy nadzory inwestorskie na budowach. Do podstawowych obowiązk&oacute;w inspektora nadzoru inwestorskiego należy:
 
 <ul>
-	<li>reprezentowanie inwestora na budowie.</li>
-	<li>sprawowanie kontroli zgodności realizacji budowy z jej projektem, pozwoleniem na budowę, obowiązującymi przepisami i zasadami wiedzy technicznej.</li>
-	<li>sprawdzanie i odbi&oacute;r rob&oacute;t budowlanych, potwierdzenia faktycznie wykonanych rob&oacute;t, kontrolowanie rozliczeń budowy.</li>
-</ul></span></div></div>
-</div>
-<div class='stacks_div stacks_right'>
-<div id='stacks_out_34_page0' class='stacks_out'><div id='stacks_in_34_page0' class='stacks_in'><div class='centered_image' ><img class='imageStyle' src='files/stacks_image_35.jpg' width='376' height='282' alt='Stacks Image 35' /></div></div></div>
-</div></div></div><div id='stacks_out_236_page0' class='stacks_out'><div id='stacks_in_236_page0' class='stacks_in'><div id='stacks_out_237_page0' class='stacks_out'><div id='stacks_in_237_page0' class='stacks_in'><div id='stacks_out_239_page0' class='stacks_out'><div id='stacks_in_239_page0' class='stacks_in'><div class='stacks_div stacks_left'>
-<div id='stacks_out_241_page0' class='stacks_out'><div id='stacks_in_241_page0' class='stacks_in'><div id='stacks_out_243_page0' class='stacks_out'><div id='stacks_in_243_page0' class='stacks_in'><span id='stacks_in_244_page0'></span></div></div><div id='stacks_out_245_page0' class='stacks_out'><div id='stacks_in_245_page0' class='stacks_in'><span id='stacks_in_246_page0'>Pracownia istnieje od 01.06.2000 r.<br />Forma organizacyjno-prawna: osoba fizyczna, wpis do ewidencji działalności gospodarczej</span></div></div></div></div>
-</div>
-<div class='stacks_div stacks_right'>
-<div id='stacks_out_248_page0' class='stacks_out'><div id='stacks_in_248_page0' class='stacks_in'><div id='stacks_out_250_page0' class='stacks_out'><div id='stacks_in_250_page0' class='stacks_in'><span id='stacks_in_251_page0'></span></div></div><div id='stacks_out_252_page0' class='stacks_out'><div id='stacks_in_252_page0' class='stacks_in'><span id='stacks_in_253_page0'>Godziny pracy : 08:00  -  17:00<br />Zakres działania : <br />projektowanie - cały kraj<br />nadzory inwestorskie &ndash; Warszawa i woj. mazowieckie</span></div></div></div></div>
-</div>
-<div class='stacks_div stacks_middle'>
-<div id='stacks_out_255_page0' class='stacks_out'><div id='stacks_in_255_page0' class='stacks_in'><div id='stacks_out_257_page0' class='stacks_out'><div id='stacks_in_257_page0' class='stacks_in'><span id='stacks_in_258_page0'></span></div></div><div id='stacks_out_259_page0' class='stacks_out'><div id='stacks_in_259_page0' class='stacks_in'><span id='stacks_in_260_page0'>NIP : 113-223-99-74<br />Regon : 016338502 </span></div></div></div></div>
-</div></div></div></div></div></div></div></div></div><!-- End of Stacks Content -->
+  <li>reprezentowanie inwestora na budowie.</li>
+  <li>sprawowanie kontroli zgodności realizacji budowy z jej projektem, pozwoleniem na budowę, obowiązującymi przepisami i zasadami wiedzy technicznej.</li>
+  <li>sprawdzanie i odbi&oacute;r rob&oacute;t budowlanych, potwierdzenia faktycznie wykonanych rob&oacute;t, kontrolowanie rozliczeń budowy.</li>
+</ul></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='stacks_div stacks_right'>
+                                    <div id='stacks_out_34_page0' class='stacks_out'>
+                                        <div id='stacks_in_34_page0' class='stacks_in'>
+                                            <div class='centered_image'><img class='imageStyle' src='files/stacks_image_35.jpg' width='376' height='282' alt='Stacks Image 35' />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id='stacks_out_236_page0' class='stacks_out'>
+                            <div id='stacks_in_236_page0' class='stacks_in'>
+                                <div id='stacks_out_237_page0' class='stacks_out'>
+                                    <div id='stacks_in_237_page0' class='stacks_in'>
+                                        <div id='stacks_out_239_page0' class='stacks_out'>
+                                            <div id='stacks_in_239_page0' class='stacks_in'>
+                                                <div class='stacks_div stacks_left'>
+                                                    <div id='stacks_out_241_page0' class='stacks_out'>
+                                                        <div id='stacks_in_241_page0' class='stacks_in'>
+                                                            <div id='stacks_out_243_page0' class='stacks_out'>
+                                                                <div id='stacks_in_243_page0' class='stacks_in'><span id='stacks_in_244_page0'></span>
+                                                                </div>
+                                                            </div>
+                                                            <div id='stacks_out_245_page0' class='stacks_out'>
+                                                                <div id='stacks_in_245_page0' class='stacks_in'><span id='stacks_in_246_page0'>Pracownia istnieje od 01.06.2000 r.<br />Forma organizacyjno-prawna: osoba fizyczna, wpis do ewidencji działalności gospodarczej</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class='stacks_div stacks_right'>
+                                                    <div id='stacks_out_248_page0' class='stacks_out'>
+                                                        <div id='stacks_in_248_page0' class='stacks_in'>
+                                                            <div id='stacks_out_250_page0' class='stacks_out'>
+                                                                <div id='stacks_in_250_page0' class='stacks_in'><span id='stacks_in_251_page0'></span>
+                                                                </div>
+                                                            </div>
+                                                            <div id='stacks_out_252_page0' class='stacks_out'>
+                                                                <div id='stacks_in_252_page0' class='stacks_in'><span id='stacks_in_253_page0'>Godziny pracy : 08:00  -  17:00<br />Zakres działania : <br />projektowanie - cały kraj<br />nadzory inwestorskie &ndash; Warszawa i woj. mazowieckie</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class='stacks_div stacks_middle'>
+                                                    <div id='stacks_out_255_page0' class='stacks_out'>
+                                                        <div id='stacks_in_255_page0' class='stacks_in'>
+                                                            <div id='stacks_out_257_page0' class='stacks_out'>
+                                                                <div id='stacks_in_257_page0' class='stacks_in'><span id='stacks_in_258_page0'></span>
+                                                                </div>
+                                                            </div>
+                                                            <div id='stacks_out_259_page0' class='stacks_out'>
+                                                                <div id='stacks_in_259_page0' class='stacks_in'><span id='stacks_in_260_page0'>NIP : 113-223-99-74<br />Regon : 016338502 </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Stacks Content -->
 
 
 
-			</section><!-- .mainContent -->
-			<aside class="sidebarContent">
-				<nav id="toolbar_vertical"></nav><!-- #toolbar_vertical -->
-				<section class="sidebar">
-					<div class="sidebar_title">
-						
-					</div><!-- .sidebar_title -->
-					<img class="imageStyle" alt="ElekronLogoGreySmall" src="files/elekronlogogreysmall-2.png" width="172" height="97" /><span style="font:12px Times, Georgia, Courier, serif; "><br /></span><span style="font-size:18px; color:#424242;font-weight:bold; ">P.H.U. ELEKTRON<br /></span><span style="font-size:18px; color:#424242;">ul. Umińskiego 5/123<br />03-984 Warszawa<br /></span><span style="font-size:18px; color:#424242;">tel.</span><span style="font:18px Times, Georgia, Courier, serif; color:#424242;">	:	</span><span style="font-size:18px; color:#424242;">22</span><span style="font:18px Times, Georgia, Courier, serif; color:#424242;">-</span><span style="font-size:18px; color:#424242;">4662761</span><span style="font:18px Times, Georgia, Courier, serif; color:#424242;"><br /></span><span style="font-size:18px; color:#424242;">tel.</span><span style="font:18px Times, Georgia, Courier, serif; color:#424242;">	:	</span><span style="font-size:18px; color:#424242;">607</span><span style="font:18px Times, Georgia, Courier, serif; color:#424242;">-</span><span style="font-size:18px; color:#424242;">612088</span><span style="font:18px Times, Georgia, Courier, serif; color:#424242;"><br /></span><span style="font-size:18px; color:#0000FF;"><u><a href="mailto:elektron1@o2.pl" rel="self">elektron1@o2.pl</a></u></span><span style="font:18px Times, Georgia, Courier, serif; color:#424242;"><br /></span><span style="font-size:18px; color:#0000FF;"><u><a href="mailto:biuro@elektronprojekt.pl">biuro@elektronprojekt.pl</a></u></span><span style="font:18px Times, Georgia, Courier, serif; color:#424242;"><br /></span><span style="font-size:18px; color:#0000FF;"><u><a href="http://www.elektronprojekt.pl">www.elektronprojekt.pl</a></u></span><span style="font:18px Times, Georgia, Courier, serif; color:#424242;"><br /></span><span style="font-size:18px; color:#0000FF;"><u><a href="http://www.projektelektryczny.com.pl">www.projektelektryczny.com.pl</a></u></span>
-				</section><!-- .sidebar -->
-				<section class="plugin_sidebar">
-					
-				</section><!-- .plugin_sidebar -->
-			</aside><!-- .sidebarContent -->
-			<div class="clear"></div>
-		</div><!-- .wrapperInner -->
-	</div><!-- .wrapperOuter -->
-	<div class="wrapperOuter wrapperPostContainer innerShadowTop">
-		<div class="wrapperInner" id="extraContainer2">
-			<!--extra user content renders here-->
-			<div class="clear"></div>
-		</div><!-- .wrapperInner -->
-	</div><!-- .wrapperOuter -->
-	<div class="wrapperOuter wrapperFooter innerShadowTop">
-		<div class="wrapperInner" id="extraContainer3">
-				<!--extra user content renders here-->
-			<div class="clear"></div>
-		</div><!-- .wrapperInner -->
-	</div><!-- .wrapperOuter -->
-	<div class="wrapperOuter wrapperCopyright innerShadowTop">
-		<footer class="wrapperInner">
-			<section class="footer">&copy; 2013 Elektron Projekt <a href="#" id="rw_email_contact">Kontakt</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":bi";var _rwObsfuscatedHref3 = "uro";var _rwObsfuscatedHref4 = "@el";var _rwObsfuscatedHref5 = "ekt";var _rwObsfuscatedHref6 = "ron";var _rwObsfuscatedHref7 = "pro";var _rwObsfuscatedHref8 = "jek";var _rwObsfuscatedHref9 = "t.p";var _rwObsfuscatedHref10 = "l";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8+_rwObsfuscatedHref9+_rwObsfuscatedHref10; document.getElementById('rw_email_contact').href = _rwObsfuscatedHref;</script></section><!-- .footer -->
-			
-			<div class="clear"></div>
-		</footer><!-- .wrapperInner -->
-	</div><!-- .wrapperOuter -->
+            </section>
+            <!-- .mainContent -->
+            <aside class="sidebarContent">
+                <nav id="toolbar_vertical"></nav>
+                <!-- #toolbar_vertical -->
+                <section class="sidebar">
+                    <div class="sidebar_title">
+
+                    </div>
+                    <!-- .sidebar_title -->
+                    <img class="imageStyle" alt="ElekronLogoGreySmall" src="files/elekronlogogreysmall-2.png" width="172" height="97" />
+                    <span style="font:12px Times, Georgia, Courier, serif; "><br /></span>
+                    <span style="font-size:18px; color:#424242;font-weight:bold; ">P.H.U. ELEKTRON<br /></span>
+                    <span style="font-size:18px; color:#424242;">ul. Umińskiego 5/123<br />03-984 Warszawa<br /></span>
+                    <span style="font-size:18px; color:#424242;">tel.</span>
+                    <span style="font:18px Times, Georgia, Courier, serif; color:#424242;"> : </span>
+                    <span style="font-size:18px; color:#424242;">22</span>
+                    <span style="font:18px Times, Georgia, Courier, serif; color:#424242;">-</span>
+                    <span style="font-size:18px; color:#424242;">4662761</span>
+                    <span style="font:18px Times, Georgia, Courier, serif; color:#424242;"><br /></span>
+                    <span style="font-size:18px; color:#424242;">tel.</span>
+                    <span style="font:18px Times, Georgia, Courier, serif; color:#424242;">  : </span>
+                    <span style="font-size:18px; color:#424242;">607</span>
+                    <span style="font:18px Times, Georgia, Courier, serif; color:#424242;">-</span>
+                    <span style="font-size:18px; color:#424242;">612088</span>
+                    <span style="font:18px Times, Georgia, Courier, serif; color:#424242;"><br /></span>
+                    <span style="font-size:18px; color:#0000FF;"><u><a href="mailto:biuro@elektronprojekt.pl">biuro@elektronprojekt.pl</a></u></span>
+                    <span style="font:18px Times, Georgia, Courier, serif; color:#424242;"><br /></span>
+                    <span style="font-size:18px; color:#0000FF;"><u><a href="mailto:elektron1@o2.pl" rel="self">elektron1@o2.pl</a></u></span>
+                    <span style="font:18px Times, Georgia, Courier, serif; color:#424242;"><br /></span>
+                    <span style="font-size:18px; color:#0000FF;"><u><a href="http://www.elektronprojekt.pl">www.elektronprojekt.pl</a></u></span>
+                    <span style="font:18px Times, Georgia, Courier, serif; color:#424242;"><br /></span>
+                    <span style="font-size:18px; color:#0000FF;"><u><a href="http://www.projektelektryczny.com.pl">www.projektelektryczny.com.pl</a></u></span>
+                </section>
+                <!-- .sidebar -->
+                <section class="plugin_sidebar">
+
+                </section>
+                <!-- .plugin_sidebar -->
+            </aside>
+            <!-- .sidebarContent -->
+            <div class="clear"></div>
+        </div>
+        <!-- .wrapperInner -->
+    </div>
+    <!-- .wrapperOuter -->
+    <div class="wrapperOuter wrapperPostContainer innerShadowTop">
+        <div class="wrapperInner" id="extraContainer2">
+            <!--extra user content renders here-->
+            <div class="clear"></div>
+        </div>
+        <!-- .wrapperInner -->
+    </div>
+    <!-- .wrapperOuter -->
+    <div class="wrapperOuter wrapperFooter innerShadowTop">
+        <div class="wrapperInner" id="extraContainer3">
+            <!--extra user content renders here-->
+            <div class="clear"></div>
+        </div>
+        <!-- .wrapperInner -->
+    </div>
+    <!-- .wrapperOuter -->
+    <div class="wrapperOuter wrapperCopyright innerShadowTop">
+        <footer class="wrapperInner">
+            <section class="footer">&copy; 2013 Elektron Projekt <a href="#" id="rw_email_contact">Kontakt</a>
+                <script type="text/javascript">
+                    var _rwObsfuscatedHref0 = "mai";
+                    var _rwObsfuscatedHref1 = "lto";
+                    var _rwObsfuscatedHref2 = ":bi";
+                    var _rwObsfuscatedHref3 = "uro";
+                    var _rwObsfuscatedHref4 = "@el";
+                    var _rwObsfuscatedHref5 = "ekt";
+                    var _rwObsfuscatedHref6 = "ron";
+                    var _rwObsfuscatedHref7 = "pro";
+                    var _rwObsfuscatedHref8 = "jek";
+                    var _rwObsfuscatedHref9 = "t.p";
+                    var _rwObsfuscatedHref10 = "l";
+                    var _rwObsfuscatedHref = _rwObsfuscatedHref0 + _rwObsfuscatedHref1 + _rwObsfuscatedHref2 + _rwObsfuscatedHref3 + _rwObsfuscatedHref4 + _rwObsfuscatedHref5 + _rwObsfuscatedHref6 + _rwObsfuscatedHref7 + _rwObsfuscatedHref8 + _rwObsfuscatedHref9 + _rwObsfuscatedHref10;
+                    document.getElementById('rw_email_contact').href = _rwObsfuscatedHref;
+                </script>
+            </section>
+            <!-- .footer -->
+
+            <div class="clear"></div>
+        </footer>
+        <!-- .wrapperInner -->
+    </div>
+    <!-- .wrapperOuter -->
 </body>
+
 </html>
